@@ -7,7 +7,7 @@ interface OrderLookupResultProps {
   email: string;
   order?: {
     id: string;
-    status: string;
+    status: 'ordered' | 'shipped' | 'in_transit' | 'delivered';
     current_location: string;
     estimated_delivery: string;
     tracking_number: string;
