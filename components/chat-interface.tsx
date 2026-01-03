@@ -10,7 +10,7 @@ import { ProductCarousel } from './product-carousel';
 import { KnowledgeAnswer } from './knowledge-answer';
 
 interface ToolResult {
-  type: 'tracking_card' | 'resolution_options' | 'product_carousel' | 'error' | 'knowledge_answer';
+  type: 'tracking_card' | 'resolution_options' | 'product_carousel' | 'error' | 'knowledge_answer' | 'rejection_notice';
   data?: Record<string, any>;
   message?: string;
 }
