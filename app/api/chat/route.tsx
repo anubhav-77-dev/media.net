@@ -200,8 +200,6 @@ Remember: You have the full message history. Reference it to provide better, mor
                 syntheticConfidence: visionAnalysis.syntheticConfidence,
                 recommendation: visionAnalysis.recommendation,
               } : null,
-              orderValue,
-              defectSeverity,
             },
           };
         },
